@@ -22,7 +22,7 @@ public class ListActivity extends AppCompatActivity {
         ImageButton img = findViewById(R.id.img);
 
         // Setting number to be sent to MainActivity
-        int number = new Random().nextInt((10000000 - 0)) + 0;
+        int number = new Random().nextInt(10000000 - 0);
         String numberText = String.valueOf(number);
 
         // Creating Alert Dialog
